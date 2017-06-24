@@ -1,0 +1,75 @@
+$color: #FF8b60;
+$size: 50px;
+$time: 3.5;
+
+main {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background:  white;
+}
+
+.reddit-upvote-loader {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   .row {
+      display: flex;
+   }
+
+   .arrow {
+      width: 0;
+      height: 0;
+      margin: 0 (-$size / 2);
+      border-left: $size solid transparent;
+      border-right: $size solid transparent;
+      border-bottom: ($size * 1.8) solid $color;
+      animation: blink $time + s infinite;
+
+      &.down {
+         transform: rotate(180deg);
+      }
+
+      @for $i from 1 through 22 {
+         &.outer-#{$i} {
+            animation-delay: +($time / 22) * $i + s;
+         }
+      }
+   }
+
+   .square {
+       width: 100px;
+       height: 100px;
+       margin: 0 (-$size / 2);
+       /*border-left: $size solid transparent;
+       border-right: $size solid transparent; */
+       border-bottom: ($size * 1.8) solid $color;
+       animation: blink $time + s infinite;
+       filter: drop-shadow(0 0 ($size * 1.5) $color);
+
+       &.down {
+          transform: rotate(180deg);
+       }
+
+       @for $i from 1 through 1 {
+          &.outer-#{$i} {
+             animation-delay: -($time / 2) * $i + s;
+          }
+       }
+
+       @for $i from 1 through 1 {
+          &.inner-#{$i} {
+             animation-delay: -($time / 2) * $i + s;
+          }
+       }
+   }
+}
+
+@keyframes blink {
+  0% { opacity: 0.1; }
+  30% { opacity: 1; }
+  100% { opacity: 0.1; }
+}

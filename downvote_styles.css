@@ -1,0 +1,128 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white; }
+
+.reddit-downvote-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .reddit-downvote-loader .row {
+    display: flex; }
+  .reddit-downvote-loader .arrow {
+    width: 0;
+    height: 0;
+    margin: 0 -25px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 90px solid #9494FF;
+    animation: blink 3.5s infinite; }
+    .reddit-downvote-loader .arrow.down {
+      transform: rotate(180deg); }
+    .reddit-downvote-loader .arrow.outer-22 {
+      animation-delay: 3.5s; }
+    .reddit-downvote-loader .arrow.outer-21 {
+      animation-delay: 3.34091s; }
+    .reddit-downvote-loader .arrow.outer-20 {
+      animation-delay: 3.18182s; }
+    .reddit-downvote-loader .arrow.outer-19 {
+      animation-delay: 3.02273s; }
+    .reddit-downvote-loader .arrow.outer-18 {
+      animation-delay: 2.86364s; }
+    .reddit-downvote-loader .arrow.outer-17 {
+      animation-delay: 2.70455s; }
+    .reddit-downvote-loader .arrow.outer-16 {
+      animation-delay: 2.54545s; }
+    .reddit-downvote-loader .arrow.outer-15 {
+      animation-delay: 2.38636s; }
+    .reddit-downvote-loader .arrow.outer-14 {
+      animation-delay: 2.22727s; }
+    .reddit-downvote-loader .arrow.outer-13 {
+      animation-delay: 2.06818s; }
+    .reddit-downvote-loader .arrow.outer-12 {
+      animation-delay: 1.90909s; }
+    .reddit-downvote-loader .arrow.outer-11 {
+      animation-delay: 1.75s; }
+    .reddit-downvote-loader .arrow.outer-10 {
+      animation-delay: 1.59091s; }
+    .reddit-downvote-loader .arrow.outer-9 {
+      animation-delay: 1.43182s; }
+    .reddit-downvote-loader .arrow.outer-8 {
+      animation-delay: 1.27273s; }
+    .reddit-downvote-loader .arrow.outer-7 {
+      animation-delay: 1.11364s; }
+    .reddit-downvote-loader .arrow.outer-6 {
+      animation-delay: 0.95455s; }
+    .reddit-downvote-loader .arrow.outer-5 {
+      animation-delay: 0.79545s; }
+    .reddit-downvote-loader .arrow.outer-4 {
+      animation-delay: 0.63636s; }
+    .reddit-downvote-loader .arrow.outer-3 {
+      animation-delay: 0.47727s; }
+    .reddit-downvote-loader .arrow.outer-2 {
+      animation-delay: 0.31818s; }
+    .reddit-downvote-loader .arrow.outer-1 {
+      animation-delay: 0.15909s; }
+  .reddit-downvote-loader .square {
+    width: 100px;
+    height: 100px;
+    margin: 0 -50px;
+    border-bottom: 90px solid #9494FF;
+    animation: blink 3.5s infinite; }
+    .reddit-downvote-loader .square.outer-1 {
+      animation-delay: 0.15909s; }
+    .reddit-downvote-loader .square.outer-2 {
+      animation-delay: 0.31818s; }
+    .reddit-downvote-loader .square.outer-3 {
+      animation-delay: 0.47727s; }
+    .reddit-downvote-loader .square.outer-4 {
+      animation-delay: 0.63636s; }
+    .reddit-downvote-loader .square.outer-5 {
+      animation-delay: 0.79545s; }
+    .reddit-downvote-loader .square.outer-6 {
+      animation-delay: 0.95455s; }
+    .reddit-downvote-loader .square.outer-7 {
+      animation-delay: 1.11364s; }
+    .reddit-downvote-loader .square.outer-8 {
+      animation-delay: 1.27273s; }
+    .reddit-downvote-loader .square.outer-9 {
+      animation-delay: 1.43182s; }
+    .reddit-downvote-loader .square.outer-10 {
+      animation-delay: 1.59091s; }
+    .reddit-downvote-loader .square.outer-11 {
+      animation-delay: 1.75s; }
+    .reddit-downvote-loader .square.outer-12 {
+      animation-delay: 1.90909s; }
+    .reddit-downvote-loader .square.outer-13 {
+      animation-delay: 2.06818s; }
+    .reddit-downvote-loader .square.outer-14 {
+      animation-delay: 2.22727s; }
+    .reddit-downvote-loader .square.outer-15 {
+      animation-delay: 2.38636s; }
+    .reddit-downvote-loader .square.outer-16 {
+      animation-delay: 2.54545s; }
+    .reddit-downvote-loader .square.outer-17 {
+      animation-delay: 2.70455s; }
+    .reddit-downvote-loader .square.outer-18 {
+      animation-delay: 2.86364s; }
+    .reddit-downvote-loader .square.outer-19 {
+      animation-delay: 3.02273s; }
+    .reddit-downvote-loader .square.outer-20 {
+      animation-delay: 3.18182s; }
+    .reddit-downvote-loader .square.outer-21 {
+      animation-delay: 3.34091s; }
+    .reddit-downvote-loader .square.outer-22 {
+      animation-delay: 3.5s; }
+
+@keyframes blink {
+  0% {
+    opacity: 0.3; }
+  30% {
+    opacity: 1; }
+  100% {
+    opacity: 0.3; } }
+
+/*# sourceMappingURL=downvote_styles.css.map */
