@@ -11,6 +11,12 @@ appreciated. :)
 To use these in your own projects/websites, just compile the SCSS to CSS using
 whatever method you choose. See http://sass-lang.com/ for more information.
 
+# reddit-loading-animations | demo
+
+Reddit upvote demo: https://codepen.io/anon/pen/WOZLmP
+
+Reddit downvote demo: https://codepen.io/anon/pen/qjPLGr
+
 # reddit-loading-animations | contributing
 
 Contributions to the repository are always welcome!
